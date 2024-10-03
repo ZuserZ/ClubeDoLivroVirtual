@@ -5,11 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube Do Livro Virtual</title>
+    <style>
+        body{
+            background-color: black;
+            font-size: 14pt;
+        }
+        main{
+            background-color: whitesmoke;
+            background-image: url(./image/background-top.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #logo{
+            text-align: center;
+        }
+
+        #logo img{
+            margin-top: 40px;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+
+        }
+
+        h1{
+            text-align: center;
+            color: whitesmoke;
+            background-color: black;
+            padding: 20px 0px;
+        }
+
+        .link-social a{
+            margin: 20px;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+
 </head>
+
 <body>
-    <div>
-        <img src="./image/logo.png" alt="logomarca do clube do livro virtual">
-        <h1>Projeto Clube do Livro Virtual</h1>
-    </div>
+    <main>
+        <!-- abrindo divs --> 
+        <div id="logo">
+            <!-- sempre dar preferência para definir a altura(height) -->
+            <img src="./image/logo.png" alt="logomarca do clube do livro virtual" width="200" height="200"> 
+        </div>
+        <!-- abrindo h1, ou titulo prioritário -->
+        <h1 id="h1">Projeto Clube do Livro Virtual</h1>
+
+        <div class="link-social">
+            <a href="https://google.com.br" target="_blank">
+                <img src="./image/icons8-youtube-48.png" alt="link para o youtube" height="40">
+                Youtube</a>
+        </div>
+
+        <div class="link-social">
+            <a href="https://google.com.br" target="_blank">
+                <img src="./image/icons8-instagram-48.png" alt="link para o instagram" height="40">
+                Instagram</a>
+        </div>
+
+        <div class="link-social">
+            <a href="https://google.com.br" target="_blank">
+                <img src="./image/icons8-whatsapp-48.png" alt="link para o whatsapp" height="40">
+              
+                WhatsApp</a>
+        </div>
+    </main>
 </body>
 </html>
