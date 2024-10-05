@@ -7,14 +7,16 @@
     <title>Clube Do Livro Virtual</title>
     <style>
         body{
-            background-color: black;
+            background-color: whitesmoke;
+            /* background-image: url(./image/background-top.jpg); */
             font-size: 14pt;
         }
         main{
-            background-color: whitesmoke;
+            background-color: black;
             background-image: url(./image/background-top.jpg);
             background-position: center;
             background-size: cover;
+            height: 100vh;
         }
 
         #logo{
@@ -31,22 +33,34 @@
 
         h1{
             text-align: center;
-            color: whitesmoke;
-            background-color: black;
+            color: black;
+            background-color: whitesmoke;
             padding: 20px 0px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 50px;
+        }
+
+        .link-social{
+            padding: 10px 0;
         }
 
         .link-social a{
-            margin: 20px;
             padding: 20px;
-            background-color: black;
-            color: white;
+            margin: auto;
+            background-color: whitesmoke;
+            color: black;
             text-align: center;
             text-decoration: none;
             border-radius: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 80%;
+            min-width: 300px;
+            max-width: 400px;
         }
 
 
@@ -79,8 +93,12 @@
         <div class="link-social">
             <a href="https://google.com.br" target="_blank">
                 <img src="./image/icons8-whatsapp-48.png" alt="link para o whatsapp" height="40">
-              
                 WhatsApp</a>
+        </div>
+        <div class="link-social">
+            <a href="https://google.com.br" target="_blank">
+                <img src="./image/icons8-facebook-48.png" alt="link para o facebook" height="40">
+                Facebook</a>
         </div>
     </main>
 </body>
