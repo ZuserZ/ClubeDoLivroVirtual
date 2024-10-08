@@ -1,7 +1,44 @@
 header{
     background-image: url(../images/background-top.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--shawdow);
+    /* height: 400px; */
+    min-height: 400px;
+}
+
+.header-text, .header-logo {
+    width: 50%;
+    color: var(--white);
+    padding: 40px;
+}
+
+.header-logo img{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text {
+    text-align: center;
+}
+
+
+/* nav bar */
 nav ul{
     display: flex;
     justify-content: center;
@@ -10,3 +47,21 @@ nav ul{
 nav li{
     list-style: none;
 }
+
+.nav-top li a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.nav-top{
+    line-height: 40px;
+    background-color: var(--black);
+}
+
+.nav-top li a:hover{
+    color: var(--gray);
+    background-color: var(--white);
+    border-bottom: solid 4px var(--gray);
+}
+
