@@ -35,6 +35,7 @@ header{
 
 .header-text {
     text-align: center;
+    background-color: var(--shawdow);
 }
 
 
