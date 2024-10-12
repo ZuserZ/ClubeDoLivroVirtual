@@ -107,3 +107,27 @@ section{
     margin-top: 300px;
     margin-bottom: 300px;
 }
+
+/* Contact */
+
+.contact{
+    display: flex;
+    border: solid 2px;
+    padding: 40px;
+}
+
+.contact-map, .contact-form{
+    width: 50%;
+    padding: 40px;
+}
+
+.contact-map h2{
+    font-size: 22px;
+    padding: 10px 0;
+
+}
+
+.contact-map p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
