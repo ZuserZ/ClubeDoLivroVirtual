@@ -24,3 +24,14 @@ nav li{
     background-color: var(--white);
     border-bottom: solid 4px var(--gray);
 }
+
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-toggler{
+    background-color: rgb(53, 53, 53);
+    border-color: var(--white);
+    
+}

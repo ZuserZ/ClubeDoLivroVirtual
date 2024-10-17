@@ -1,1 +1,33 @@
-@import "./form.css"
+@import "./form.css";
+
+
+.form-access{
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background-color: var(--white);
+}
+
+.form-access form{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border: solid 2px var(--gray);
+    padding: 10px;
+    background-color: var(--shadow);
+    border-radius: 15px;
+
+}
+
+.form-access div{
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}

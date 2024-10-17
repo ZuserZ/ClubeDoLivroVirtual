@@ -9,7 +9,7 @@ header{
 
 
 .header-main{
-    background-color: var(--shawdow);
+    background-color: var(--shadow);
 
 }
 
@@ -43,7 +43,7 @@ header{
 
 .header-text {
     text-align: center;
-    background-color: var(--shawdow);
+    background-color: var(--shadow);
 }
 
 
@@ -62,7 +62,7 @@ section{
 }
 
 .card-content{
-    background-color: var(--shawdow);
+    background-color: var(--shadow);
 }
 
 .card-img img{
@@ -102,7 +102,7 @@ section{
 
 @keyframes pulse {
     0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    50% { transform: scale(1.02); }
     100% { transform: scale(1); }
 }
 
@@ -129,4 +129,26 @@ section{
 .contact-map p{
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 400px){
+    .header-content {
+        flex-direction: column-reverse;
+
+    }
+    
+    .header-text, .header-logo {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 760px){
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-map, .contact-form{
+        width: 100%;
+    }
 }
